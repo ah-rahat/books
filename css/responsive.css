@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px){
+	header .navbar-brand{
+		padding-left: 1rem;
+	}
+	.navbar-toggler-icon{
+		color: white;
+	}
+	.header-img {
+    width: 91% !important;
+    margin-top: 80px;
+}
+.Course .row .col-md-6 .panel{
+	position: initial;
+	width: initial;
+	height: initial;
+
+}
+}
+@media only screen and (min-width: 320px){
+	.desktop {
+    background: white;
+    border-radius: 5em;
+    display: block;
+    padding: 0em 0em;
+    margin: 2px;
+}
+	.section-3 .row .col-md-12 p {
+    padding: 2rem 1rem;
+    color: white;
+}
+
+.Course .row .col-md-6 .panel {
+    background: white;
+    top: 5vmin;
+    bottom: 3vmin;
+    right: 31vmin;
+    left: -28vmin;
+    border-radius: 3px;
+    padding: 3vmin 19vmin 5vmin 10vmin;
+    overflow-y: hidden;
+    text-align: left;
+    box-shadow: 0px 15px 42px rgba(0,0,0,0.2);
+    font-family: 'Rubik', sans-serif;
+    position: ;
+}
+
+}

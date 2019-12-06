@@ -1,0 +1,284 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+*{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+header,
+section{
+	overflow-x: hidden;
+	padding-bottom: 50px;
+}
+header{
+	background: linear-gradient(rgba(255,82,114),rgba(248,98,53));
+	padding-bottom: 70px;
+}
+header a{
+	color: white;
+}
+.header-img{
+	width: 100% !important;
+
+}
+header .nav-item{
+	padding: 0.9em;
+	font-size: 16px;
+}
+header .nav-link:hover{
+	color: black !important;
+}
+header .nav-item:last-child{
+	padding-right: 10.5em;
+}
+header .navbar-brand{
+	padding-left: 10.5em;
+}
+.dropdown-item{
+	color: black!important;
+	margin:.100rem 0 0!important;
+}
+.information{
+	margin-top: 100px;
+}
+.b-info{
+	background: white !important;
+	color: black !important;
+	position: relative;
+	border-radius: 30px !important;
+}
+
+
+
+
+
+.b-info:hover{
+	background: black!important;
+	color: white !important;
+	font-weight: 600;
+	border: none!important;
+}
+header .col-md-7 {
+ font-family: 'Acme', sans-serif;
+ color: white;
+}
+header .col-md-7 h6{
+	letter-spacing: 4px;
+
+}
+.Course{
+	padding: 50px 0px;
+}
+.Course .row .col-md-6 .pray img{
+	opacity: 0.8;
+	border-radius: 3px;
+}
+.Course .row .col-md-6 .pray:last-child{
+	position: relative;
+	
+	}
+.Course .row .col-md-6 .panel{
+	position: absolute;
+	background: white;
+	top:5vmin;
+	bottom: 3vmin;
+	right: 31vmin;
+	left: -28vmin;
+	border-radius: 3px;
+	padding: 3vmin 19vmin 5vmin 10vmin;
+	overflow-y: hidden;
+	text-align: left;
+	box-shadow: 0px 15px 42px rgba(0,0,0,0.2);
+	font-family: 'Rubik', sans-serif;
+	
+}
+.Course .row .col-md-6 .panel h1{
+	text-transform: capitalize;
+}
+.Course .row .col-md-6 .panel p{
+	text-align: justify;
+	color: rgba(0,0,0,0.5);
+	font-family: 'Acme', sans-serif;
+}
+/*price section*/
+.price{
+	padding: 50px 0px;
+}
+.cover{
+	background:url(../assets/img/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 55vmin;
+	width: 100%;
+	position: relative;
+}
+.cover .content{
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	padding-top: 90px;
+	color: white;
+}
+.cover .content h1{
+	font-family: 'Patua One', cursive;
+	text-transform: capitalize;
+	font-size: 8vmin;
+}
+.cover .content p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.5vmin;
+}
+.numbers .react{
+	position: relative;
+	width: 14rem;
+	height: auto;
+	background: white;
+	z-index: 1;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.5);
+	padding-top: 6.5vmin;
+	margin: 1rem;
+	border-radius: 5px;
+}
+.numbers{
+	margin-top: -15vmin;
+}
+.numbers .react h1{
+	font-family: 'Rubik', sans-serif; 
+	color: tomato;
+	font-size: 3rem;
+}
+.numbers .react p{
+	text-transform: capitalize;
+	font-family: 'Patua One', cursive;
+}
+.purchase h1{
+	padding-top:15vmin;
+	font-family: 'Lobster', cursive;
+	padding-bottom: 0.1em;
+}
+.purchase p{
+	color: gray;
+	font-family: 'Patua One', cursive;
+	padding-bottom: 15vmin;
+}
+.cards .card{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.cards .card{
+	margin:1rem;
+	width: 22rem !important;
+}
+.cards .card-title{
+	background: gray;
+	padding: 1rem;
+	text-align: center;
+}
+.cards .card .card-text {
+	padding: 2.5rem 3rem;
+	text-align: center;
+}
+
+.pricing{
+	background: rgba(128,128,128,0.1);
+	border-top-left-radius: 170px;
+	border-top-right-radius: 170px;
+	padding-bottom: 1rem;
+}
+.pricing h1{
+	padding: 1em 0.5em;
+	font-size: 8vmin;
+		font-family: 'Patua One', cursive;
+}
+.section-3{
+	background: linear-gradient(rgba(255,82,114),rgba(248,98,53,0.9));
+
+}
+.section-3 .row .col-md-12 h1{
+	color: white;
+	text-transform: capitalize;
+
+}
+.section-3 .row .col-md-12 p{
+	padding: 2rem 10rem;
+	color: white;
+
+}
+.desktop{
+	background: white;
+    border-radius: 5em;
+    display: block;
+    padding: 2em 10em;
+   
+
+	
+}
+.team-member{padding-top: 5vmin;
+
+}
+.team-member h1{
+	text-transform: capitalize;
+
+
+}
+.team-member p{padding-bottom: 5vmin;
+
+}
+.border-radius{
+	border-radius: 360px;
+	width: 60%;
+}
+.border-circle{
+	width: 60%;
+	border-radius: 100%;
+}
+footer{
+	background: black;
+	padding-bottom: 10vmin;
+	padding: 14vmin 18vmin;
+}
+.daily{
+	color: tomato;
+}
+.column i{
+	color: red;
+	margin: 3px;
+}
+footer input{
+	background: #353945!important;
+	border: none !important;
+}
+form input::placeholder{
+	color: white !important;
+
+}
+
+.input-group-text{
+	background: #FF0000 !important;
+	border: none !important;
+} 
+.sticky{
+	position: fixed;
+	background: black;
+	
+	width: 100%;
+	top: 0;
+	transition: all 1.5s ease;
+}
+nav.black{
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 9999999999;
+	width: 100%;
+	padding: 0;
+
+	}
+	a:hover {
+    color: #fff !important;
+    text-decoration: underline;
+}
